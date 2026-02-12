@@ -83,7 +83,6 @@ class PantallaDetalles extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            // Row: Organiza widgets horizontalmente (Humedad y Viento)
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
@@ -94,7 +93,6 @@ class PantallaDetalles extends StatelessWidget {
             const SizedBox(height: 30),
             const Text('Pronóstico Semanal', style: TextStyle(fontSize: 20, fontWeight  : FontWeight.bold)),
             const Divider(),
-            // ListView: Genera una lista desplazable de elementos
             Expanded(
               child: ListView.builder(
                 itemCount: pronostico.length,
